@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4c89c4ed.css",
+    "main.js": "./static/js/main.cfaed687.js",
+    "static/media/Mont-Regular.otf": "./static/media/Mont-Regular.1d26d89f7339866d3133.otf",
+    "static/media/Mont-SemiBold.otf": "./static/media/Mont-SemiBold.8979d71a3146ca1d761f.otf",
+    "static/media/Mont-Bold.otf": "./static/media/Mont-Bold.03c8c2f6127c1da0fc39.otf",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/Favorite.svg": "./static/media/Favorite.dbd19c030c984812b400.svg",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "static/media/PathHome.svg": "./static/media/PathHome.e110292ae2cf67d0baca.svg",
+    "static/media/Search.svg": "./static/media/Search.66a1fd869fd5e9551d9b.svg",
+    "static/media/Favorite__selected.svg": "./static/media/Favorite__selected.35ef0548d1c93a3809b3.svg",
+    "static/media/DeleteButton.svg": "./static/media/DeleteButton.d99189a57063cb02e093.svg",
+    "static/media/DeleteButtonHover.svg": "./static/media/DeleteButtonHover.3ea864f59fecb8596c4b.svg",
+    "static/media/Plus.svg": "./static/media/Plus.dea157243cc9d361ac05.svg",
+    "static/media/ButtonBack.svg": "./static/media/ButtonBack.960106b239d993f02b1f.svg",
+    "static/media/ArrowRight.svg": "./static/media/ArrowRight.4756c06469be134ab092.svg",
+    "static/media/PathRight.svg": "./static/media/PathRight.f3e02e6274d17255a455.svg",
+    "static/media/ArrowLeft.svg": "./static/media/ArrowLeft.c0d01b22c02136a3c700.svg",
+    "index.html": "./index.html",
+    "static/media/Minus.svg": "./static/media/Minus.cecb4be39afa7b933ec1.svg",
+    "static/media/MinusDisabled.svg": "./static/media/MinusDisabled.cce4862297a181fdf808.svg",
+    "main.4c89c4ed.css.map": "./static/css/main.4c89c4ed.css.map",
+    "main.cfaed687.js.map": "./static/js/main.cfaed687.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c89c4ed.css",
+    "static/js/main.cfaed687.js"
+  ]
+}
