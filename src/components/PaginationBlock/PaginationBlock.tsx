@@ -1,3 +1,4 @@
+import React from 'react';
 import classNames from 'classnames';
 import { usePagination, DOTS } from '../../helpers/usePagination';
 

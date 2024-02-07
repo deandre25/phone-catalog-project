@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 
 import { AddToCartButton } from '../AddToCartButton/AddToCartButton';
 import { FavoriteButton } from '../FavoriteButton/FavoriteButton';

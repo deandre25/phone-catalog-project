@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import React, { FC, useState } from 'react';
 import { CatalogProduct } from '../../types/CatalogProduct';
 import { ProductItem } from '../ProductItem/ProductItem';
 import { FavoriteItem } from '../../types/FavoriteItem';

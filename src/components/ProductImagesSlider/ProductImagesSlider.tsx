@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { FC, useState } from 'react';
+import React, { FC, useState } from 'react';
 
 import './ProductImagesSlider.scss';
 

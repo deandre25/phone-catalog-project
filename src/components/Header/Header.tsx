@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 import { useLocation } from 'react-router-dom';
 import { NavBar } from '../NavBar/NavBar';
 import { NavIcons } from '../NavIcons/NavIcons';

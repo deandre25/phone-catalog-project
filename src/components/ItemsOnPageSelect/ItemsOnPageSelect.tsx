@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { PreviousPage } from '../../helpers/enums';
 import { DropdownSelect } from '../Dropdown/Dropdown';

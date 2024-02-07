@@ -1,13 +1,11 @@
-import { FC, useRef, useState } from 'react';
+import React, { FC, useRef, useState } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
-import 'swiper/swiper.scss';
-import 'swiper/modules/pagination/pagination.scss';
 
-import './MobileSwiper.scss';
 import { CatalogProduct } from '../../types/CatalogProduct';
 import { ProductItem } from '../ProductItem/ProductItem';
+
+import './MobileSwiper.scss';
 
 type Props = {
   title: string;
@@ -27,7 +25,6 @@ export const MobileSwiper: FC<Props> = ({ title, products }) => {
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination]}
         className="mySwiper"
         ref={currentSlider}
       >

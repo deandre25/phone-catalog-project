@@ -1,4 +1,4 @@
-import {
+import React, {
   FC, useContext, useEffect, useRef, useState,
 } from 'react';
 import classNames from 'classnames';

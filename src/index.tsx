@@ -1,4 +1,5 @@
-import ReactDOM from 'react-dom';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 import {
   HashRouter as Router,
   Routes,
@@ -18,7 +19,11 @@ import { CartPage } from './pages/CartPage/CartPage';
 
 import './index.scss';
 
-ReactDOM.render(
+const container = document.getElementById('root');
+
+const root = createRoot(container!); // createRoot(container!) if you use TypeScript
+
+root.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />}>
@@ -48,5 +53,4 @@ ReactDOM.render(
       <Route path="*" element={<Navigate to="notfound" replace />} />
     </Routes>
   </Router>,
-  document.getElementById('root'),
 );

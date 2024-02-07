@@ -1,4 +1,6 @@
-import { FC, useState, useEffect } from 'react';
+import React, {
+  FC, useState, useEffect, ReactNode,
+} from 'react';
 import { useLocation, useSearchParams } from 'react-router-dom';
 
 import { useLocalStorage } from '../helpers/cartHelpers';
@@ -9,7 +11,11 @@ import { SearchStorageContext } from './SearchStorageContext';
 import { FavoriteItem } from '../types/FavoriteItem';
 import { useDebounce } from '../helpers/useDebounce';
 
-export const ContextProviders: FC = ({ children }) => {
+interface ContextProvidersProps {
+  children: ReactNode;
+}
+
+export const ContextProviders: FC<ContextProvidersProps> = ({ children }) => {
   const [cartItems, setCartItems] = useLocalStorage('Cart', []);
   const [favorites, setFavorites] = useLocalStorage('Favorites', []);
 

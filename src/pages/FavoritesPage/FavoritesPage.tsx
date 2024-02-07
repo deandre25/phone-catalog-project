@@ -1,4 +1,4 @@
-import {
+import React, {
   FC, useContext, useState, useEffect,
 } from 'react';
 import { useLocation, useSearchParams } from 'react-router-dom';

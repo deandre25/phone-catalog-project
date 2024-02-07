@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { FC, useContext } from 'react';
+import React, { FC, useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import './NavIcons.scss';

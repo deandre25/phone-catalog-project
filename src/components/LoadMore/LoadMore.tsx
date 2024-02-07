@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import classNames from 'classnames';
 

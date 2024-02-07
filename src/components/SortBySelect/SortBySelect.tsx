@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { SortBy } from '../../helpers/enums';
 import { getSearchWith } from '../../helpers/searchHelpers';
