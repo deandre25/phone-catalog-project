@@ -1,6 +1,8 @@
 # Electronics and Accessories Store
 Welcome to the Electronics and Accessories Store project! This is a web application for an online store specializing in electronics and accessories. The project is built using functional components, utilizing TypeScript for type safety, SCSS for styling, and leveraging context and providers for state management.
 
+[DEMO](https://deandre25.github.io/phone-catalog-project/#/)
+
 ### Technologies Used
 This project utilizes the following technologies:
 
